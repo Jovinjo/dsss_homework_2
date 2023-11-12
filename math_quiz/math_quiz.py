@@ -54,7 +54,6 @@ def get_user_input():
 def math_quiz():
     """
     A math quiz game where users answer a random generated math problem
-
     User get a point everytime a correct answer is given and if wrong the result will be display
     """
     score = 0
