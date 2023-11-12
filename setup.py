@@ -9,7 +9,7 @@ setup(
    packages=['math_quiz'],  #same as name
    entry_points={
         'console_scripts': [
-            'math_quiz = math_quiz.math_quiz:main',
+            'math_quiz = math_quiz.math_quiz:math_quiz',
         ],
     },
 )
