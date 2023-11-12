@@ -7,4 +7,9 @@ setup(
    author='Jonathan Vincent',
    author_email='jonathan.vincent@fau.de',
    packages=['math_quiz'],  #same as name
+   entry_points={
+        'console_scripts': [
+            'math_quiz = math_quiz.math_quiz:main',
+        ],
+    },
 )
